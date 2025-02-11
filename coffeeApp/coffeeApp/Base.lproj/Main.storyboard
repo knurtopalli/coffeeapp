@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="58P-jN-r3z">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="coffeeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="iJC-iz-ue3">
+                                <rect key="frame" x="23" y="522" width="347" height="28.333333333333371"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYY-5w-uqh">
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="28.333333333333332"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Light Roast">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Sj-oh-Axa">
+                                        <rect key="frame" x="121" y="0.0" width="105" height="28.333333333333332"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Medium Roast">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBs-rf-01e">
+                                        <rect key="frame" x="242" y="0.0" width="105" height="28.333333333333332"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Dark Roast">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$16.89" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOb-1W-uGf">
+                                <rect key="frame" x="15.999999999999993" y="744.33333333333337" width="118.33333333333331" height="41.666666666666629"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqT-8x-Zhm">
+                                <rect key="frame" x="224.66666666666663" y="746.66666666666663" width="152.33333333333337" height="37"/>
+                                <color key="backgroundColor" name="anaRenk"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="xb1-iW-3Ut"/>
+                                </constraints>
+                                <color key="tintColor" name="yaziRenk1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ADD TO CARD">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="beans" translatesAutoresizingMaskIntoConstraints="NO" id="zl1-fQ-WfC">
+                                <rect key="frame" x="-68" y="85" width="403" height="374"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="dIO-2P-S8q">
+                                <rect key="frame" x="47" y="121" width="346" height="303"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="303" id="Ie1-0J-Z8s"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARABICA" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zf5-VB-iEA">
+                                <rect key="frame" x="138.66666666666666" y="467" width="116" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="QFX-yn-s3z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="30"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Espresso yourself. A good day starts with coffee &lt;3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xwa-jg-OWM">
+                                <rect key="frame" x="32" y="581" width="329" height="40.666666666666629"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zl1-fQ-WfC" firstAttribute="centerY" secondItem="dIO-2P-S8q" secondAttribute="centerY" id="4XP-pS-vgf"/>
+                            <constraint firstItem="xwa-jg-OWM" firstAttribute="top" secondItem="iJC-iz-ue3" secondAttribute="bottom" constant="30.666666666666629" id="6rl-w5-3qV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zl1-fQ-WfC" secondAttribute="trailing" constant="58" id="70h-Y4-jdn"/>
+                            <constraint firstItem="dIO-2P-S8q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="BXD-b4-9Vs"/>
+                            <constraint firstItem="iJC-iz-ue3" firstAttribute="top" secondItem="Zf5-VB-iEA" secondAttribute="bottom" constant="34" id="EFm-I6-jdQ"/>
+                            <constraint firstItem="Zf5-VB-iEA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="138.66666666666666" id="GTp-8N-F1O"/>
+                            <constraint firstItem="dIO-2P-S8q" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Gt4-2b-QXO"/>
+                            <constraint firstItem="iJC-iz-ue3" firstAttribute="centerX" secondItem="xwa-jg-OWM" secondAttribute="centerX" id="JKU-5C-OA6"/>
+                            <constraint firstItem="yOb-1W-uGf" firstAttribute="centerY" secondItem="jqT-8x-Zhm" secondAttribute="centerY" id="NmD-Az-U4D"/>
+                            <constraint firstItem="Zf5-VB-iEA" firstAttribute="top" secondItem="dIO-2P-S8q" secondAttribute="bottom" constant="43" id="PKb-CO-nKi"/>
+                            <constraint firstItem="Zf5-VB-iEA" firstAttribute="top" secondItem="zl1-fQ-WfC" secondAttribute="bottom" constant="8" id="XQ1-x7-nDV"/>
+                            <constraint firstItem="yOb-1W-uGf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XeH-cG-wtj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yOb-1W-uGf" secondAttribute="bottom" constant="31.999999999999886" id="c5I-4M-GNk"/>
+                            <constraint firstItem="Zf5-VB-iEA" firstAttribute="centerX" secondItem="iJC-iz-ue3" secondAttribute="centerX" id="dew-eE-9hy"/>
+                            <constraint firstItem="iJC-iz-ue3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eQo-zw-aug"/>
+                            <constraint firstItem="xwa-jg-OWM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="eeo-bg-yda"/>
+                            <constraint firstItem="iJC-iz-ue3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="k6T-sw-uRH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jqT-8x-Zhm" secondAttribute="bottom" constant="34.333333333333371" id="peV-p7-8XI"/>
+                            <constraint firstItem="dIO-2P-S8q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="tp2-QZ-yFz"/>
+                            <constraint firstItem="zl1-fQ-WfC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-84" id="zYh-Q6-hea"/>
+                            <constraint firstItem="jqT-8x-Zhm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="zca-YB-XEF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Vc-fx-xqG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="887.78625954198469" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gfg-NG-lYm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="58P-jN-r3z" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GhV-ub-GS3">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1EM-gr-goT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Znu-uC-6h3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.74045801526717" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="beans" width="1941.3333740234375" height="1109.3333740234375"/>
+        <image name="coffee" width="682.66668701171875" height="682.66668701171875"/>
+        <namedColor name="anaRenk">
+            <color red="0.42699998617172241" green="0.29800000786781311" blue="0.25499999523162842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk2">
+            <color red="0.28499999642372131" green="0.21500000357627869" blue="0.13300000131130219" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

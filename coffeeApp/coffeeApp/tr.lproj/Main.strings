@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; configuration.title = "Medium Roast"; ObjectID = "3Sj-oh-Axa"; */
+"3Sj-oh-Axa.configuration.title" = "Orta Çekim";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3Sj-oh-Axa"; */
+"3Sj-oh-Axa.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Dark Roast"; ObjectID = "MBs-rf-01e"; */
+"MBs-rf-01e.configuration.title" = "Yoğun Çekim";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MBs-rf-01e"; */
+"MBs-rf-01e.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "ARABICA"; ObjectID = "jmR-MZ-ro3"; */
+"jmR-MZ-ro3.text" = "ARABICA";
+
+/* Class = "UIButton"; configuration.title = "ADD TO CARD"; ObjectID = "jqT-8x-Zhm"; */
+"jqT-8x-Zhm.configuration.title" = "SEPETE EKLE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jqT-8x-Zhm"; */
+"jqT-8x-Zhm.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Light Roast"; ObjectID = "lYY-5w-uqh"; */
+"lYY-5w-uqh.configuration.title" = "Hafif Çekim";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lYY-5w-uqh"; */
+"lYY-5w-uqh.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Espresso yourself. A good day starts with coffee <3"; ObjectID = "xwa-jg-OWM"; */
+"xwa-jg-OWM.text" = "Güne kahveyle başla <3";
+
+/* Class = "UILabel"; text = "$16.89"; ObjectID = "yOb-1W-uGf"; */
+"yOb-1W-uGf.text" = "250 TL";
